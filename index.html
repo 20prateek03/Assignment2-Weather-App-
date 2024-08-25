@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="weather-app">
+    <div class="container">
+    <header>
+      <h1>Weather App</h1>
+      <p>Get the latest weather updates</p>
+    </header>
+    
+      <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Enter city name...">
+        <button id="searchBtn">Search</button>
+      </div>
+      <section class="display">
+        <div class="wrapper">
+          <h2 id="cityoutput"></h2>
+
+
+          <p id="description"></p>
+          <p id="temp"></p>
+          <p id="feel_like"></p>
+          <p id="wind"></p>
+          <p id="humidity"></p>
+          <p id="visibility"></p>
+        </div>
+      </section>
+    </div>
+
+
+    <script src="script.js"></script>
+    <footer>
+
+      <div class="foot-panel2">
+
+        <div class="copyright fs-5"><i class="fa-regular fa-copyright"></i> Prateek's Weather's Website</div>
+        <div class="social fs-5 me-2"> Contact me:
+          <div class="facebook ms-5"><a
+              href="https://www.facebook.com/profile.php?id=100050066992933&mibextid=ZbWKwL"><i
+                class="fa-brands fa-facebook"></i></a></div>
+          <div class="instagram ms-5"><a href="https://www.instagram.com/prateek_singh_352?igsh=MWdzZnpwY2k2YjhwaA=="><i
+                class="fa-brands fa-instagram"></i></a></div>
+          <div class="github ms-5"><a href="https://github.com/20prateek03"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="linkedin ms-5"><a href="https://www.linkedin.com/in/prateek-kumar-singh-b760162bb/"><i
+                class="fa-brands fa-linkedin"></i></a></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
